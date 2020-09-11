@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T06:39:52.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" version="13.6.9" etag="_3-z71EFON98Yt4l5WOC" type="github"><diagram id="6A6I_0UTqMwCS9Y0vNW4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-11T06:40:10.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="TnI5FKYJSxADLChkzs3D" version="13.6.9" type="github">
+  <diagram id="6A6I_0UTqMwCS9Y0vNW4" name="Page-1">
+    <mxGraphModel dx="2526" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vf936HSq4TePKnYpIhoD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="Vf936HSq4TePKnYpIhoD-3" target="Vf936HSq4TePKnYpIhoD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf936HSq4TePKnYpIhoD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="Vf936HSq4TePKnYpIhoD-3" target="Vf936HSq4TePKnYpIhoD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf936HSq4TePKnYpIhoD-3" value="&lt;span&gt;Storage&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf936HSq4TePKnYpIhoD-4" value="traditional storage" style="rounded=1;whiteSpace=wrap;fontSize=19;align=center;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vf936HSq4TePKnYpIhoD-5" value="adoptable  storage" style="rounded=1;whiteSpace=wrap;fontSize=19;align=center;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
