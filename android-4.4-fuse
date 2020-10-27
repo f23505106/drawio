@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T12:57:56.481Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.3" etag="DbBs-PgqCBX_QpVWrD3S" type="github"><diagram id="PEqunqN2aFYQtr7f80pd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-27T13:34:42.595Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="E1YQdpzyNWn67C_t8ohL" version="13.8.3" type="github">
+  <diagram id="PEqunqN2aFYQtr7f80pd" name="Page-1">
+    <mxGraphModel dx="1377" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="le1GL54oFYd-YmI7FFhG-1" value="Android 4.4&amp;nbsp;DERIVE_LEGACY file structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="293" y="30" width="265" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-2" value="0" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="le1GL54oFYd-YmI7FFhG-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-4" value="1" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-5" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="le1GL54oFYd-YmI7FFhG-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-6" value="&lt;span class=&quot;pln&quot; style=&quot;text-align: center ; box-sizing: border-box ; margin: 0px ; padding: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot; face=&quot;source code pro, monospace&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;0771&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;source code pro, monospace&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;root sdcard_r&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="155" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-7" value="Pictures" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="le1GL54oFYd-YmI7FFhG-7" parent="1" source="le1GL54oFYd-YmI7FFhG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-9" value="Music" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="le1GL54oFYd-YmI7FFhG-9" parent="1" source="le1GL54oFYd-YmI7FFhG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-11" value="Android" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="le1GL54oFYd-YmI7FFhG-11" parent="1" source="le1GL54oFYd-YmI7FFhG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-13" value="&lt;span class=&quot;pln&quot; style=&quot;text-align: center ; box-sizing: border-box ; margin: 0px ; padding: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot; face=&quot;source code pro, monospace&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;0771&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;source code pro, monospace&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;root sdcard_r&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-14" value="&lt;span class=&quot;pln&quot; style=&quot;text-align: center ; box-sizing: border-box ; margin: 0px ; padding: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#006666&quot; face=&quot;source code pro, monospace&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;0771&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;source code pro, monospace&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;root sdcard_r&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-15" value="obb" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="320" y="155" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="le1GL54oFYd-YmI7FFhG-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-17" value="data" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="le1GL54oFYd-YmI7FFhG-18" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="le1GL54oFYd-YmI7FFhG-17" parent="1" source="le1GL54oFYd-YmI7FFhG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
