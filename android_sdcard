@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T02:39:54.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="zzNDvpMWxcNvs7W62Q7E" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-31T12:38:36.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="upWP7EPLGNSBZ-eKJic7" version="13.8.8" type="github">
   <diagram id="HPO-vH6tO6Ss8x9cfOFd" name="Page-1">
-    <mxGraphModel dx="1425" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -178,9 +178,6 @@
         </mxCell>
         <mxCell id="qRuGrCrBqLzihKHl6HO7-53" value="&lt;font face=&quot;source code pro, monospace&quot;&gt;0771 root sdcard_rw&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="420" y="170" width="137.5" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="qRuGrCrBqLzihKHl6HO7-55" value="EXTERNAL_STORAGE&lt;br&gt;legacy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="620" y="175" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qRuGrCrBqLzihKHl6HO7-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;fontSize=10;fontColor=#000000;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="qRuGrCrBqLzihKHl6HO7-61" target="qRuGrCrBqLzihKHl6HO7-2" edge="1">
           <mxGeometry relative="1" as="geometry">
