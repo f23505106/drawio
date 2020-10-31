@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-31T11:52:15.922Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="6dJt6Sr8KvJivod00iwb" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-31T12:08:24.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="gUlOY3WKfm_GI1eK_lcU" version="13.8.5" type="github">
   <diagram id="6JwGHGVocwXZkzMCrswH" name="Page-1">
     <mxGraphModel dx="653" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -411,7 +411,7 @@
         <mxCell id="CsnrQh9HoF27jer_LtWM-121" value="init&lt;br&gt;bind mount" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CsnrQh9HoF27jer_LtWM-108" target="CsnrQh9HoF27jer_LtWM-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CsnrQh9HoF27jer_LtWM-122" value="zygote&lt;br&gt;bind mount" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CsnrQh9HoF27jer_LtWM-108" target="CsnrQh9HoF27jer_LtWM-118">
+        <mxCell id="CsnrQh9HoF27jer_LtWM-122" value="zygote vold&lt;br&gt;bind mount" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CsnrQh9HoF27jer_LtWM-108" target="CsnrQh9HoF27jer_LtWM-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CsnrQh9HoF27jer_LtWM-108" value="&lt;span&gt;/storage/self/primary&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -431,7 +431,7 @@
         <mxCell id="CsnrQh9HoF27jer_LtWM-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CsnrQh9HoF27jer_LtWM-111" target="CsnrQh9HoF27jer_LtWM-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CsnrQh9HoF27jer_LtWM-124" value="vold&lt;br&gt;bind mount" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CsnrQh9HoF27jer_LtWM-123">
+        <mxCell id="CsnrQh9HoF27jer_LtWM-124" value="init&lt;br&gt;symlink" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CsnrQh9HoF27jer_LtWM-123">
           <mxGeometry x="-0.1444" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -454,7 +454,7 @@
         <mxCell id="CsnrQh9HoF27jer_LtWM-116" value="/storage/emulated/0&lt;br&gt;/mnt/runtime/default/emulated/0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="850" width="182.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CsnrQh9HoF27jer_LtWM-125" value="vold&lt;br&gt;bind mount" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CsnrQh9HoF27jer_LtWM-118" target="CsnrQh9HoF27jer_LtWM-119">
+        <mxCell id="CsnrQh9HoF27jer_LtWM-125" value="zygote&lt;br&gt;bind mount" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="CsnrQh9HoF27jer_LtWM-118" target="CsnrQh9HoF27jer_LtWM-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CsnrQh9HoF27jer_LtWM-118" value="/mnt/runtime/&amp;lt;view&amp;gt;/self/primary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -477,7 +477,7 @@
         <mxCell id="CsnrQh9HoF27jer_LtWM-120" value="/storage/emulated/&amp;lt;user&amp;gt;&lt;br&gt;/mnt/runtime/&amp;lt;view&amp;gt;/emulated/&amp;lt;user&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="413.76" y="850" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CsnrQh9HoF27jer_LtWM-131" value="sdcard&lt;br&gt;bind mount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CsnrQh9HoF27jer_LtWM-131" value="sdcard&lt;br&gt;emulated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="890" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CsnrQh9HoF27jer_LtWM-132" value="第一次bind&amp;nbsp; mount 完成对view动态选择" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
