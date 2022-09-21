@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T12:30:59.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="KcC6qKOI7uajW-i8tS_c" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T08:16:46.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="sBM4TiG9U3WieV6Csj7X" version="20.3.3" type="github">
   <diagram id="xcQuriU0oQv12EpbVyYx" name="Page-1">
-    <mxGraphModel dx="1298" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,6 +288,166 @@
           <mxGeometry x="270" width="170" height="40" as="geometry">
             <mxRectangle width="170" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-1" value="AppWidgetServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="770" width="170" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="80" y="150" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-5" value="onPackageBroadcastReceived" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-4" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="85" y="180" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-7" value="updateProvidersForPackageLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-6" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="90" y="210" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-9" value="parseProviderInfoXml" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-8" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="190" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="90" y="290" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-19" value="registerForBroadcastsLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-18" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="90" y="250" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-21" value="cancelBroadcasts" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-20" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="90" y="330" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-27" value="scheduleNotifyProviderChangedLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-26" parent="YAcLPnXyGq9ZezCiwUSU-1" source="YAcLPnXyGq9ZezCiwUSU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="320" />
+              <mxPoint x="120" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="90" y="360" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-29" value="sendUpdateIntentLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.9;exitY=0.739;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YAcLPnXyGq9ZezCiwUSU-1" target="YAcLPnXyGq9ZezCiwUSU-28" source="YAcLPnXyGq9ZezCiwUSU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="350" />
+              <mxPoint x="120" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-2" value="Intent.ACTION_PACKAGE_ADDED&lt;br&gt;Intent.ACTION_PACKAGE_CHANGED&lt;br&gt;Intent.ACTION_PACKAGE_REMOVED" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;align=left;" edge="1" parent="1" target="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="-1" y="14" width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="900" as="sourcePoint" />
+            <mxPoint x="460" y="900" as="targetPoint" />
+            <mxPoint x="-10" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-10" value="获取manifest信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="950" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-11" value="updateProvidersForPackageLocked" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-12" value="queryIntentReceivers&lt;br&gt;AppWidgetManager.ACTION_APPWIDGET_UPDATE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="200" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-13" value="List&amp;lt;ResolveInfo&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-15" value="parseProviderInfoXml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-16" value="provider.widgets.size()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-17" value="mAlarmManager.cancel(provider.broadcast);&lt;br&gt;provider.broadcast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-22" value="&lt;div&gt;mAlarmManager.cancel(provider.broadcast);&lt;/div&gt;&lt;div&gt;&amp;nbsp;provider.broadcast = null;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1000" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-24" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private void &lt;b&gt;registerForBroadcastsLocked&lt;/b&gt;(Provider provider, int[] appWidgetIds) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (provider.info.updatePeriodMillis &amp;gt; 0) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // if this is the first instance, set the alarm. otherwise,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // rely on the fact that we&#39;ve already set it and that&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // PendingIntent.getBroadcast will update the extras.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; boolean alreadyRegistered = provider.broadcast != null;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Intent intent = new Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; intent.setComponent(provider.info.provider);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long token = Binder.clearCallingIdentity();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;&amp;nbsp; &amp;nbsp; provider.broadcast = PendingIntent.getBroadcastAsUser(mContext, 1, intent,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PendingIntent.FLAG_UPDATE_CURRENT, provider.info.getProfile());&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } finally {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Binder.restoreCallingIdentity(token);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!alreadyRegistered) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long period = provider.info.updatePeriodMillis;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (period &amp;lt; MIN_UPDATE_PERIOD) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; period = MIN_UPDATE_PERIOD;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mAlarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SystemClock.elapsedRealtime() + period, period, provider.broadcast);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1310" width="550" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-25" value="bindAppWidgetId&lt;br&gt;onUserStarted&lt;br&gt;updateProvidersForPackageLocked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-30" value="AMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="770" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-31" value="AlarmManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="770" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-32" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="770" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-35" value="PendingIntent.getBroadcastAsUser" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-18" target="YAcLPnXyGq9ZezCiwUSU-30">
+          <mxGeometry x="0.4652" width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="1060" as="sourcePoint" />
+            <mxPoint x="620" y="1060" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-36" value="setInexactRepeating" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-18" target="YAcLPnXyGq9ZezCiwUSU-31">
+          <mxGeometry x="0.133" y="-10" width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="1060" as="sourcePoint" />
+            <mxPoint x="620" y="1060" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-37" value="Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-28" target="YAcLPnXyGq9ZezCiwUSU-32">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="1060" as="sourcePoint" />
+            <mxPoint x="650" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-38" value="Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-31" target="YAcLPnXyGq9ZezCiwUSU-32">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="1060" as="sourcePoint" />
+            <mxPoint x="650" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-39" value="launcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="770" width="100" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
