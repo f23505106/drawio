@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T08:16:46.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="sBM4TiG9U3WieV6Csj7X" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T08:57:54.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="BvmOq9OUpr32kCSFVwc7" version="20.3.3" type="github">
   <diagram id="xcQuriU0oQv12EpbVyYx" name="Page-1">
     <mxGraphModel dx="830" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -290,7 +290,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-1" value="AppWidgetServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="770" width="170" height="520" as="geometry" />
+          <mxGeometry x="140" y="770" width="170" height="800" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
           <mxGeometry x="80" y="150" width="10" height="270" as="geometry" />
@@ -371,6 +371,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="80" y="470" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="85" y="510" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-43" value="updateAppWidgetInstanceLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-42" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="90" y="540" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-45" value="scheduleNotifyUpdateAppWidgetLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-44" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="80" y="640" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry x="85" y="680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-51" value="registerForBroadcastsLocked" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="YAcLPnXyGq9ZezCiwUSU-50" parent="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-2" value="Intent.ACTION_PACKAGE_ADDED&lt;br&gt;Intent.ACTION_PACKAGE_CHANGED&lt;br&gt;Intent.ACTION_PACKAGE_REMOVED" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;align=left;" edge="1" parent="1" target="YAcLPnXyGq9ZezCiwUSU-1">
           <mxGeometry x="-1" y="14" width="80" relative="1" as="geometry">
             <mxPoint x="70" y="900" as="sourcePoint" />
@@ -403,10 +442,10 @@
           <mxGeometry x="370" y="1000" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-24" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; private void &lt;b&gt;registerForBroadcastsLocked&lt;/b&gt;(Provider provider, int[] appWidgetIds) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (provider.info.updatePeriodMillis &amp;gt; 0) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // if this is the first instance, set the alarm. otherwise,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // rely on the fact that we&#39;ve already set it and that&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // PendingIntent.getBroadcast will update the extras.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; boolean alreadyRegistered = provider.broadcast != null;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Intent intent = new Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; intent.setComponent(provider.info.provider);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long token = Binder.clearCallingIdentity();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;&amp;nbsp; &amp;nbsp; provider.broadcast = PendingIntent.getBroadcastAsUser(mContext, 1, intent,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PendingIntent.FLAG_UPDATE_CURRENT, provider.info.getProfile());&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } finally {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Binder.restoreCallingIdentity(token);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!alreadyRegistered) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; long period = provider.info.updatePeriodMillis;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (period &amp;lt; MIN_UPDATE_PERIOD) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; period = MIN_UPDATE_PERIOD;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mAlarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SystemClock.elapsedRealtime() + period, period, provider.broadcast);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1310" width="550" height="370" as="geometry" />
+          <mxGeometry x="270" y="1850" width="550" height="370" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-25" value="bindAppWidgetId&lt;br&gt;onUserStarted&lt;br&gt;updateProvidersForPackageLocked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1450" width="60" height="30" as="geometry" />
+          <mxGeometry x="140" y="1900" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-30" value="AMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="770" width="100" height="440" as="geometry" />
@@ -415,7 +454,7 @@
           <mxGeometry x="740" y="770" width="100" height="450" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-32" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="770" width="100" height="450" as="geometry" />
+          <mxGeometry x="890" y="770" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-35" value="PendingIntent.getBroadcastAsUser" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-18" target="YAcLPnXyGq9ZezCiwUSU-30">
           <mxGeometry x="0.4652" width="80" relative="1" as="geometry">
@@ -447,7 +486,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-39" value="launcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="770" width="100" height="490" as="geometry" />
+          <mxGeometry x="1040" y="770" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-41" value="updateAppWidgetIds" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-32" target="YAcLPnXyGq9ZezCiwUSU-40">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="1300" as="sourcePoint" />
+            <mxPoint x="610" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-46" value="updateAppWidget" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-44" target="YAcLPnXyGq9ZezCiwUSU-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="550" y="1170" as="sourcePoint" />
+            <mxPoint x="630" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-47" value="requestPinAppWidget" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-32" target="YAcLPnXyGq9ZezCiwUSU-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="1420" as="sourcePoint" />
+            <mxPoint x="590" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-48" value="bindAppWidgetId" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="1270" as="sourcePoint" />
+            <mxPoint x="230" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
