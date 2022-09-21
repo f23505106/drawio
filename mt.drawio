@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T08:57:54.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="BvmOq9OUpr32kCSFVwc7" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T09:32:15.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="O94GBvxapI096JWmKaQX" version="20.3.3" type="github">
   <diagram id="xcQuriU0oQv12EpbVyYx" name="Page-1">
     <mxGraphModel dx="830" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -447,14 +447,14 @@
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-25" value="bindAppWidgetId&lt;br&gt;onUserStarted&lt;br&gt;updateProvidersForPackageLocked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="1900" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YAcLPnXyGq9ZezCiwUSU-30" value="AMS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="770" width="100" height="440" as="geometry" />
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-30" value="PendingIntent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="780" width="100" height="440" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-31" value="AlarmManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="770" width="100" height="450" as="geometry" />
+          <mxGeometry x="580" y="780" width="100" height="450" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-32" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="770" width="100" height="830" as="geometry" />
+          <mxGeometry x="790" y="780" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-35" value="PendingIntent.getBroadcastAsUser" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-18" target="YAcLPnXyGq9ZezCiwUSU-30">
           <mxGeometry x="0.4652" width="80" relative="1" as="geometry">
@@ -486,7 +486,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-39" value="launcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="770" width="100" height="750" as="geometry" />
+          <mxGeometry x="910" y="780" width="100" height="750" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-41" value="updateAppWidgetIds" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YAcLPnXyGq9ZezCiwUSU-32" target="YAcLPnXyGq9ZezCiwUSU-40">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -517,6 +517,12 @@
               <mxPoint x="720" y="1420" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-52" value="PendingIntentController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="780" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="YAcLPnXyGq9ZezCiwUSU-53" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; public static PendingIntent getBroadcastAsUser(Context context, int requestCode,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Intent intent, int flags, UserHandle userHandle) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String &lt;b&gt;packageName = context.getPackageName()&lt;/b&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String resolvedType = intent != null ? intent.resolveTypeIfNeeded(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; context.getContentResolver()) : null;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; intent.setAllowFds(false);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; IIntentSender target =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ActivityManagerNative.getDefault().getIntentSender(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ActivityManager.INTENT_SENDER_BROADCAST, &lt;b&gt;packageName&lt;/b&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; null, null, &lt;b&gt;requestCode&lt;/b&gt;, new Intent[] { intent },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; resolvedType != null ? new String[] { resolvedType } : null,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; flags, null, userHandle.getIdentifier());&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return target != null ? new PendingIntent(target) : null;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } catch (RemoteException e) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return null;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="770" width="490" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
