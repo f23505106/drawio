@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T09:32:15.791Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="O94GBvxapI096JWmKaQX" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-26T04:15:30.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="_bqUaXT4ts4Y9-veGVaD" version="20.3.3" type="github">
   <diagram id="xcQuriU0oQv12EpbVyYx" name="Page-1">
-    <mxGraphModel dx="830" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1255" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -421,22 +421,22 @@
           <mxGeometry x="377.5" y="950" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-11" value="updateProvidersForPackageLocked" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="100" width="200" height="60" as="geometry" />
+          <mxGeometry x="1310" y="1100" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-12" value="queryIntentReceivers&lt;br&gt;AppWidgetManager.ACTION_APPWIDGET_UPDATE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="200" width="300" height="60" as="geometry" />
+          <mxGeometry x="1260" y="1200" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-13" value="List&amp;lt;ResolveInfo&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-15" value="parseProviderInfoXml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-16" value="provider.widgets.size()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-17" value="mAlarmManager.cancel(provider.broadcast);&lt;br&gt;provider.broadcast" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="1360" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YAcLPnXyGq9ZezCiwUSU-22" value="&lt;div&gt;mAlarmManager.cancel(provider.broadcast);&lt;/div&gt;&lt;div&gt;&amp;nbsp;provider.broadcast = null;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="1000" width="310" height="30" as="geometry" />
