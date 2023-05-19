@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T06:17:50.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-frwvREEhw2-MuaTKoHF" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T06:20:13.614Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yo47eWRutaIChZtJaos2" version="21.1.7" type="github">
   <diagram name="Page-1" id="uQ1ixLjwGyGthpmSJSai">
     <mxGraphModel dx="822" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -329,6 +329,22 @@
         </mxCell>
         <mxCell id="vAcdb8zV9JxCYVANtPO0-87" value="六类人员&lt;br&gt;认证方案制定人员&lt;br&gt;认证申请评审人员&lt;br&gt;认证审核方案人员&lt;br&gt;认证审核人员&lt;br&gt;认证决定人员&lt;br&gt;认证人员能力评价人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="260" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vAcdb8zV9JxCYVANtPO0-88" value="中华人民共和国认证认可条例" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="510" y="95" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vAcdb8zV9JxCYVANtPO0-89" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="vAcdb8zV9JxCYVANtPO0-88" parent="1" source="vAcdb8zV9JxCYVANtPO0-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="145" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vAcdb8zV9JxCYVANtPO0-90" value="合格评定相关技术规则和标准" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="495" y="130" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vAcdb8zV9JxCYVANtPO0-91" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="vAcdb8zV9JxCYVANtPO0-90" parent="1" source="vAcdb8zV9JxCYVANtPO0-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="145" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
