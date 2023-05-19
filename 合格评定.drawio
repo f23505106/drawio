@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T06:15:18.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="M-G2g71do-8xVIQJ1wG9" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T06:17:50.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-frwvREEhw2-MuaTKoHF" version="21.1.7" type="github">
   <diagram name="Page-1" id="uQ1ixLjwGyGthpmSJSai">
     <mxGraphModel dx="822" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -326,6 +326,9 @@
         </mxCell>
         <mxCell id="vAcdb8zV9JxCYVANtPO0-86" value="合格评定包含对合格评定机构的认可" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="345" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vAcdb8zV9JxCYVANtPO0-87" value="六类人员&lt;br&gt;认证方案制定人员&lt;br&gt;认证申请评审人员&lt;br&gt;认证审核方案人员&lt;br&gt;认证审核人员&lt;br&gt;认证决定人员&lt;br&gt;认证人员能力评价人员" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="260" width="130" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
