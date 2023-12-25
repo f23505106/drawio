@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T11:50:06.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="r5mGyJpz5vJvbOPWH6UK" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T11:59:31.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="14SgYjqZ_pCamdvnlyV-" version="22.1.11" type="github">
   <diagram name="Page-1" id="UImN8F6RggUFPWrpkJpI">
     <mxGraphModel dx="1306" dy="2965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -405,7 +405,7 @@
           <mxGeometry x="4" y="-1410" width="615.08" height="270" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-161" value="typedef &lt;b&gt;pio_hw_t&lt;/b&gt; *&lt;b&gt;PIO&lt;/b&gt;;&lt;br&gt;&lt;div&gt;#define &lt;b&gt;pio0_hw&lt;/b&gt; ((pio_hw_t *)PIO0_BASE)&lt;/div&gt;&lt;div&gt;#define &lt;b&gt;pio1_hw&lt;/b&gt; ((pio_hw_t *)PIO1_BASE)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="-2180" width="250" height="80" as="geometry" />
+          <mxGeometry x="530" y="-2200" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-162" value="&lt;b&gt;pio_hw_t&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="-1710" width="230" height="546" as="geometry" />
@@ -474,7 +474,28 @@
           <mxGeometry x="360" y="-1710" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-185" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // PIO control register&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000f00 [11:8]&amp;nbsp; : CLKDIV_RESTART (0): Restart a state machine&#39;s clock divider from an initial phase of 0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x000000f0 [7:4]&amp;nbsp; &amp;nbsp;: SM_RESTART (0): Write 1 to instantly clear internal SM state which may be otherwise difficult...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000000f [3:0]&amp;nbsp; &amp;nbsp;: SM_ENABLE (0): Enable/disable each of the four state machines by writing 1/0 to each of these four bits&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="-1910" width="350" height="30" as="geometry" />
+          <mxGeometry x="499.86" y="-2080" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-186" value="&lt;b&gt;pio_sm_hw&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596.62" y="-2010" width="140" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-187" value="clkdiv : io_rw_32;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-186">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-188" value="execctrl : io_rw_32;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-186">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-189" value="shiftctrl : io_rw_32;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-186">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-192" value="addr : io_ro_32;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-186">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-191" value="instr : io_rw_32;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-186">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-190" value="pinctrl : io_rw_32;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-186">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
