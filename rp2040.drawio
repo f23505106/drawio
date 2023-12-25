@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T07:04:47.454Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IE4LLa9wRqpxHzD1G4fk" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T02:05:09.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="h1glQufFiPaIgsIIvGIL" version="22.1.11" type="github">
   <diagram name="Page-1" id="UImN8F6RggUFPWrpkJpI">
     <mxGraphModel dx="1306" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -97,8 +97,8 @@
         <mxCell id="ukT0D_zXUrws_9689R1D-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.306;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-13" target="ukT0D_zXUrws_9689R1D-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ukT0D_zXUrws_9689R1D-31" value="&lt;div&gt;enum &lt;b&gt;gpio_function&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_XIP = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_SPI = 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_UART = 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_I2C = 3,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_PWM = 4,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_SIO = 5,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_PIO0 = 6,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_PIO1 = 7,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_GPCK = 8,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_USB = 9,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_NULL = 0x1f,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="30" width="170" height="220" as="geometry" />
+        <mxCell id="ukT0D_zXUrws_9689R1D-31" value="&lt;div&gt;enum &lt;b&gt;gpio_function&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_XIP = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_SPI = 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_UART = 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_I2C = 3,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_PWM = 4,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_SIO = 5,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_PIO0 = 6,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_PIO1 = 7,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_GPCK = 8,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_USB = 9,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_FUNC_NULL = 0x1f,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;div&gt;void &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;gpio_set_function&lt;/font&gt;&lt;/b&gt;(uint gpio, enum gpio_function fn);&lt;br&gt;&lt;/div&gt;&lt;div&gt;enum gpio_function &lt;b&gt;gpio_get_function&lt;/b&gt;(uint gpio);&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="5" width="330" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-32" value="&lt;div&gt;enum &lt;b&gt;gpio_irq_level&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_IRQ_LEVEL_LOW = 0x1u,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_IRQ_LEVEL_HIGH = 0x2u,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_IRQ_EDGE_FALL = 0x4u,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_IRQ_EDGE_RISE = 0x8u,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="560" width="200" height="30" as="geometry" />
@@ -192,7 +192,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ukT0D_zXUrws_9689R1D-53" value="PAD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ukT0D_zXUrws_9689R1D-53" value="PAD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="770" y="-225" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -298,6 +298,93 @@
           <mxGeometry x="0.2" y="1" relative="1" as="geometry">
             <mxPoint x="-2" y="-9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-89" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="598.75" y="-212.5" width="20" height="432.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-90" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;rotation=-60;" vertex="1" parent="1">
+          <mxGeometry x="658.92" y="-18.43" width="38.66" height="151.76" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-91" value="&lt;div&gt;enum &lt;b&gt;gpio_drive_strength&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_2MA = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_4MA = 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_8MA = 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_12MA = 3&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-195" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-92" value="&lt;div&gt;enum &lt;b&gt;gpio_slew_rate&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_SLEW_RATE_SLOW = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_SLEW_RATE_FAST = 1&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-93" value="void &lt;b&gt;gpio_set_pulls&lt;/b&gt;(uint gpio, bool up, bool down);&lt;br&gt;static inline void &lt;b&gt;gpio_pull_up&lt;/b&gt;(uint gpio)&lt;br&gt;static inline bool &lt;b&gt;gpio_is_pulled_up&lt;/b&gt;(uint gpio)&lt;br&gt;static inline void &lt;b&gt;gpio_pull_down&lt;/b&gt;(uint gpio)&lt;br&gt;static inline bool &lt;b&gt;gpio_is_pulled_down&lt;/b&gt;(uint gpio)&lt;br&gt;static inline void &lt;b&gt;gpio_disable_pulls&lt;/b&gt;(uint gpio)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-90" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-94" value="&lt;div&gt;void &lt;b&gt;gpio_set_irqover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_outover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_inover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_oeover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="540" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-95" value="&lt;div&gt;void &lt;b&gt;gpio_set_input_enabled&lt;/b&gt;(uint gpio, bool enabled);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_input_hysteresis_enabled&lt;/b&gt;(uint gpio, bool enabled);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;bool &lt;b&gt;gpio_is_input_hysteresis_enabled&lt;/b&gt;(uint gpio);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-96" value="&lt;div&gt;void &lt;b&gt;gpio_set_slew_rate&lt;/b&gt;(uint gpio, enum gpio_slew_rate slew);&lt;/div&gt;&lt;div&gt;enum gpio_slew_rate &lt;b&gt;gpio_get_slew_rate&lt;/b&gt;(uint gpio);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-350" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-97" value="&lt;div&gt;void &lt;b&gt;gpio_set_drive_strength&lt;/b&gt;(uint gpio, enum gpio_drive_strength drive);&lt;/div&gt;&lt;div&gt;enum gpio_drive_strength &lt;b&gt;gpio_get_drive_strength&lt;/b&gt;(uint gpio);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-310" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-98" value="&lt;div&gt;void &lt;b&gt;gpio_init&lt;/b&gt;(uint gpio);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_deinit&lt;/b&gt;(uint gpio);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_init_mask&lt;/b&gt;(uint gpio_mask);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="340" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-99" value="&lt;div&gt;static inline bool &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;gpio_get&lt;/font&gt;&lt;/b&gt;(uint gpio)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline uint32_t &lt;b&gt;gpio_get_all&lt;/b&gt;(void)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_set_mask&lt;/b&gt;(uint32_t mask)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_clr_mask&lt;/b&gt;(uint32_t mask)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_xor_mask&lt;/b&gt;(uint32_t mask)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_put_masked&lt;/b&gt;(uint32_t mask, uint32_t value)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_put_all&lt;/b&gt;(uint32_t value)&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;gpio_put&lt;/font&gt;&lt;/b&gt;(uint gpio, bool value)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline bool &lt;b&gt;gpio_get_out_level&lt;/b&gt;(uint gpio)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_set_dir_out_masked&lt;/b&gt;(uint32_t mask)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_set_dir_in_masked&lt;/b&gt;(uint32_t mask)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_set_dir_masked&lt;/b&gt;(uint32_t mask, uint32_t value)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;gpio_set_dir_all_bits&lt;/b&gt;(uint32_t values)&lt;/div&gt;&lt;div&gt;static inline void &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;gpio_set_dir&lt;/font&gt;&lt;/b&gt;(uint gpio, bool out)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline bool &lt;b&gt;gpio_is_dir_out&lt;/b&gt;(uint gpio)&amp;nbsp;&lt;/div&gt;&lt;div&gt;static inline uint &lt;b&gt;gpio_get_dir&lt;/b&gt;(uint gpio)&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="630" width="395" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-126" value="&lt;b&gt;iobank0_hw_t&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="290" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-127" value="io : &lt;b&gt;iobank0_status_ctrl_hw_t&lt;/b&gt;[30]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-126">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-128" value="intr : &lt;b&gt;io_rw_32&lt;/b&gt;[4]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-126">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-129" value="proc0_irq_ctrl :&amp;nbsp;&lt;b&gt;io_irq_ctrl_hw_t&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-126">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-131" value="proc1_irq_ctrl :&amp;nbsp;&lt;b&gt;io_irq_ctrl_hw_t&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-126">
+          <mxGeometry y="104" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-130" value="dormant_wake_irq_ctrl :&amp;nbsp;&lt;b&gt;io_irq_ctrl_hw_t&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-126">
+          <mxGeometry y="130" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-136" value="&lt;b&gt;iobank0_status_ctrl_hw_t&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="736" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-137" value="status :&amp;nbsp;&lt;b&gt;io_ro_32&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-136">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-138" value="ctrl :&amp;nbsp;&lt;b&gt;io_rw_32&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-136">
+          <mxGeometry y="52" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-140" value="&lt;b&gt;proc0_irq_ctrl : io_irq_ctrl_hw_t&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="958" width="215" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-141" value="inte&amp;nbsp; :&amp;nbsp; &lt;b&gt;io_rw_32&lt;/b&gt;[4];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-140">
+          <mxGeometry y="26" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-142" value="intf&amp;nbsp; : &lt;b&gt;io_rw_32&lt;/b&gt;[4];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-140">
+          <mxGeometry y="52" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-143" value="ints&amp;nbsp; : &lt;b&gt;io_ro_32&lt;/b&gt;[4];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-140">
+          <mxGeometry y="78" width="215" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-149" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // GPIO control including function select and overrides&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x30000000 [29:28] : IRQOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00030000 [17:16] : INOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00003000 [13:12] : OEOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000300 [9:8]&amp;nbsp; &amp;nbsp;: OUTOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000001f [4:0]&amp;nbsp; &amp;nbsp;: FUNCSEL (0x1f): 0-31 -&amp;gt; selects pin function according to the gpio table&lt;/div&gt;&lt;div&gt;复位后没选择任何功能&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="830" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-150" value="&lt;b&gt;padsbank0_hw_t&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-540" width="150" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-151" value="voltage_select :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;io_rw_32&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-150">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-152" value="io : &lt;b&gt;io_rw_32&lt;/b&gt;[30];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-150">
+          <mxGeometry y="52" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-153" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // Pad control register&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000080 [7]&amp;nbsp; &amp;nbsp; &amp;nbsp;: OD (0): Output disable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000040 [6]&amp;nbsp; &amp;nbsp; &amp;nbsp;: IE (1): Input enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000030 [5:4]&amp;nbsp; &amp;nbsp;: DRIVE (1): Drive strength&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000008 [3]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PUE (0): Pull up enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000004 [2]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PDE (1): Pull down enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000002 [1]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SCHMITT (1): Enable schmitt trigger&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000001 [0]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SLEWFAST (0): Slew rate control&lt;/div&gt;&lt;div&gt;复位后，输入输出使能，输出电流4mA，下拉电阻，施密特触发，边沿缓慢&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="-530" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
