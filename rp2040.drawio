@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T02:05:09.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="h1glQufFiPaIgsIIvGIL" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T02:08:04.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3AD1RNTEcYhappPFLCB-" version="22.1.11" type="github">
   <diagram name="Page-1" id="UImN8F6RggUFPWrpkJpI">
     <mxGraphModel dx="1306" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -111,29 +111,29 @@
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-34" target="ukT0D_zXUrws_9689R1D-50">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="-200" as="targetPoint" />
+            <mxPoint x="420" y="-242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-34" value="GPIO&lt;br&gt;Muxing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="220" y="-245" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="-287" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-35" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-240" width="60" height="80" as="geometry" />
+          <mxGeometry x="560" y="-282" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-270" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-312" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-240" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-282" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-39" target="ukT0D_zXUrws_9689R1D-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-210" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-252" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-180" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-222" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.883;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-36" target="ukT0D_zXUrws_9689R1D-35">
           <mxGeometry relative="1" as="geometry" />
@@ -150,28 +150,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-48" value="Slew Rate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-270" width="60" height="20" as="geometry" />
+          <mxGeometry x="440" y="-312" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-49" value="Output Enable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-240" width="80" height="20" as="geometry" />
+          <mxGeometry x="420" y="-282" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-50" value="Output Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="-210" width="70" height="20" as="geometry" />
+          <mxGeometry x="430" y="-252" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-51" value="Drive Strength" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-180" width="80" height="20" as="geometry" />
+          <mxGeometry x="420" y="-222" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-52" target="ukT0D_zXUrws_9689R1D-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="-130" />
+              <mxPoint x="590" y="-172" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-52" target="ukT0D_zXUrws_9689R1D-56">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="-70" />
+              <mxPoint x="590" y="-112" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -179,7 +179,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-52" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-140" width="60" height="80" as="geometry" />
+          <mxGeometry x="560" y="-182" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-53" target="ukT0D_zXUrws_9689R1D-35">
           <mxGeometry relative="1" as="geometry" />
@@ -187,34 +187,34 @@
         <mxCell id="ukT0D_zXUrws_9689R1D-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-53" target="ukT0D_zXUrws_9689R1D-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="-200" />
-              <mxPoint x="690" y="-100" />
+              <mxPoint x="690" y="-242" />
+              <mxPoint x="690" y="-142" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-53" value="PAD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="770" y="-225" width="50" height="50" as="geometry" />
+          <mxGeometry x="770" y="-267" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-80" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-122" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-110" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-152" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-140" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-182" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-59" value="Schmitt Trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="415" y="-80" width="85" height="20" as="geometry" />
+          <mxGeometry x="415" y="-122" width="85" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-60" target="ukT0D_zXUrws_9689R1D-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-60" value="Input Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-110" width="60" height="20" as="geometry" />
+          <mxGeometry x="440" y="-152" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-61" value="Input Enable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="-140" width="70" height="20" as="geometry" />
+          <mxGeometry x="430" y="-182" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-68" target="ukT0D_zXUrws_9689R1D-70">
           <mxGeometry relative="1" as="geometry" />
@@ -222,8 +222,8 @@
         <mxCell id="ukT0D_zXUrws_9689R1D-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-68" target="ukT0D_zXUrws_9689R1D-76">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="-40" />
-              <mxPoint x="690" y="-90" />
+              <mxPoint x="690" y="-82" />
+              <mxPoint x="690" y="-132" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -233,24 +233,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-50" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="-92" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-69" value="Pull Up /Pull Down" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="-50" width="110" height="20" as="geometry" />
+          <mxGeometry x="390" y="-92" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-70" target="ukT0D_zXUrws_9689R1D-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-70">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="725" y="-15" as="targetPoint" />
+            <mxPoint x="725" y="-57" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-55" width="10" height="30" as="geometry" />
+          <mxGeometry x="720" y="-97" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-74" value="" style="group;flipV=1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="710" y="-13" width="30" height="9" as="geometry" />
+          <mxGeometry x="710" y="-55" width="30" height="9" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-71" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="ukT0D_zXUrws_9689R1D-74">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -272,26 +272,26 @@
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="-200" as="targetPoint" />
-            <mxPoint x="725" y="-80" as="sourcePoint" />
+            <mxPoint x="750" y="-242" as="targetPoint" />
+            <mxPoint x="725" y="-122" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="725" y="-65" />
-              <mxPoint x="751" y="-65" />
+              <mxPoint x="725" y="-107" />
+              <mxPoint x="751" y="-107" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ukT0D_zXUrws_9689R1D-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="725" y="-135" as="targetPoint" />
+            <mxPoint x="725" y="-177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-105" width="10" height="30" as="geometry" />
+          <mxGeometry x="720" y="-147" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-80" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="715" y="-135" as="sourcePoint" />
-            <mxPoint x="735" y="-135" as="targetPoint" />
+            <mxPoint x="715" y="-177" as="sourcePoint" />
+            <mxPoint x="735" y="-177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-81" value="VCC&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ukT0D_zXUrws_9689R1D-80">
@@ -300,31 +300,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-89" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="598.75" y="-212.5" width="20" height="432.5" as="geometry" />
+          <mxGeometry x="598.75" y="-258.5" width="20" height="432.5" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-90" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;rotation=-60;" vertex="1" parent="1">
-          <mxGeometry x="658.92" y="-18.43" width="38.66" height="151.76" as="geometry" />
+          <mxGeometry x="667.92" y="-23.43" width="38.66" height="151.76" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-91" value="&lt;div&gt;enum &lt;b&gt;gpio_drive_strength&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_2MA = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_4MA = 1,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_8MA = 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_DRIVE_STRENGTH_12MA = 3&amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-195" width="230" height="90" as="geometry" />
+          <mxGeometry x="10" y="-237" width="230" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-92" value="&lt;div&gt;enum &lt;b&gt;gpio_slew_rate&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_SLEW_RATE_SLOW = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; GPIO_SLEW_RATE_FAST = 1&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-310" width="200" height="30" as="geometry" />
+          <mxGeometry x="200" y="-352" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-93" value="void &lt;b&gt;gpio_set_pulls&lt;/b&gt;(uint gpio, bool up, bool down);&lt;br&gt;static inline void &lt;b&gt;gpio_pull_up&lt;/b&gt;(uint gpio)&lt;br&gt;static inline bool &lt;b&gt;gpio_is_pulled_up&lt;/b&gt;(uint gpio)&lt;br&gt;static inline void &lt;b&gt;gpio_pull_down&lt;/b&gt;(uint gpio)&lt;br&gt;static inline bool &lt;b&gt;gpio_is_pulled_down&lt;/b&gt;(uint gpio)&lt;br&gt;static inline void &lt;b&gt;gpio_disable_pulls&lt;/b&gt;(uint gpio)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="-90" width="280" height="70" as="geometry" />
+          <mxGeometry x="10" y="-132" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-94" value="&lt;div&gt;void &lt;b&gt;gpio_set_irqover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_outover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_inover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_oeover&lt;/b&gt;(uint gpio, uint value);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="540" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-95" value="&lt;div&gt;void &lt;b&gt;gpio_set_input_enabled&lt;/b&gt;(uint gpio, bool enabled);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_set_input_hysteresis_enabled&lt;/b&gt;(uint gpio, bool enabled);&lt;/div&gt;&lt;div style=&quot;&quot;&gt;bool &lt;b&gt;gpio_is_input_hysteresis_enabled&lt;/b&gt;(uint gpio);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="10" width="380" height="30" as="geometry" />
+          <mxGeometry x="300" y="-39" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-96" value="&lt;div&gt;void &lt;b&gt;gpio_set_slew_rate&lt;/b&gt;(uint gpio, enum gpio_slew_rate slew);&lt;/div&gt;&lt;div&gt;enum gpio_slew_rate &lt;b&gt;gpio_get_slew_rate&lt;/b&gt;(uint gpio);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-350" width="380" height="30" as="geometry" />
+          <mxGeometry x="400" y="-392" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-97" value="&lt;div&gt;void &lt;b&gt;gpio_set_drive_strength&lt;/b&gt;(uint gpio, enum gpio_drive_strength drive);&lt;/div&gt;&lt;div&gt;enum gpio_drive_strength &lt;b&gt;gpio_get_drive_strength&lt;/b&gt;(uint gpio);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="-310" width="400" height="30" as="geometry" />
+          <mxGeometry x="400" y="-352" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-98" value="&lt;div&gt;void &lt;b&gt;gpio_init&lt;/b&gt;(uint gpio);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_deinit&lt;/b&gt;(uint gpio);&lt;/div&gt;&lt;div&gt;void &lt;b&gt;gpio_init_mask&lt;/b&gt;(uint gpio_mask);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="340" width="210" height="60" as="geometry" />
@@ -371,7 +371,7 @@
         <mxCell id="ukT0D_zXUrws_9689R1D-143" value="ints&amp;nbsp; : &lt;b&gt;io_ro_32&lt;/b&gt;[4];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-140">
           <mxGeometry y="78" width="215" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ukT0D_zXUrws_9689R1D-149" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // GPIO control including function select and overrides&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x30000000 [29:28] : IRQOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00030000 [17:16] : INOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00003000 [13:12] : OEOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000300 [9:8]&amp;nbsp; &amp;nbsp;: OUTOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000001f [4:0]&amp;nbsp; &amp;nbsp;: FUNCSEL (0x1f): 0-31 -&amp;gt; selects pin function according to the gpio table&lt;/div&gt;&lt;div&gt;复位后没选择任何功能&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukT0D_zXUrws_9689R1D-149" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // GPIO control including function select and overrides&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x30000000 [29:28] : IRQOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00030000 [17:16] : INOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00003000 [13:12] : OEOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000300 [9:8]&amp;nbsp; &amp;nbsp;: OUTOVER (0)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000001f [4:0]&amp;nbsp; &amp;nbsp;: FUNCSEL (0x1f): 0-31 -&amp;gt; selects pin function according to the gpio table&lt;/div&gt;&lt;div&gt;&lt;b&gt;复位后没选择任何功能&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="405" y="830" width="370" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-150" value="&lt;b&gt;padsbank0_hw_t&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -383,7 +383,7 @@
         <mxCell id="ukT0D_zXUrws_9689R1D-152" value="io : &lt;b&gt;io_rw_32&lt;/b&gt;[30];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ukT0D_zXUrws_9689R1D-150">
           <mxGeometry y="52" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ukT0D_zXUrws_9689R1D-153" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // Pad control register&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000080 [7]&amp;nbsp; &amp;nbsp; &amp;nbsp;: OD (0): Output disable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000040 [6]&amp;nbsp; &amp;nbsp; &amp;nbsp;: IE (1): Input enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000030 [5:4]&amp;nbsp; &amp;nbsp;: DRIVE (1): Drive strength&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000008 [3]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PUE (0): Pull up enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000004 [2]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PDE (1): Pull down enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000002 [1]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SCHMITT (1): Enable schmitt trigger&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000001 [0]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SLEWFAST (0): Slew rate control&lt;/div&gt;&lt;div&gt;复位后，输入输出使能，输出电流4mA，下拉电阻，施密特触发，边沿缓慢&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ukT0D_zXUrws_9689R1D-153" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // Pad control register&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000080 [7]&amp;nbsp; &amp;nbsp; &amp;nbsp;: OD (0): Output disable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000040 [6]&amp;nbsp; &amp;nbsp; &amp;nbsp;: IE (1): Input enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000030 [5:4]&amp;nbsp; &amp;nbsp;: DRIVE (1): Drive strength&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000008 [3]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PUE (0): Pull up enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000004 [2]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PDE (1): Pull down enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000002 [1]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SCHMITT (1): Enable schmitt trigger&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000001 [0]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SLEWFAST (0): Slew rate control&lt;/div&gt;&lt;div&gt;&lt;b&gt;复位后，输入输出使能，输出电流4mA，下拉电阻，施密特触发，边沿缓慢&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="247.5" y="-530" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
