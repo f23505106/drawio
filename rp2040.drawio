@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T02:08:04.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3AD1RNTEcYhappPFLCB-" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T02:10:02.494Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TKf5zQfDKzOMYscVci96" version="22.1.11" type="github">
   <diagram name="Page-1" id="UImN8F6RggUFPWrpkJpI">
     <mxGraphModel dx="1306" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -385,6 +385,9 @@
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-153" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // Pad control register&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000080 [7]&amp;nbsp; &amp;nbsp; &amp;nbsp;: OD (0): Output disable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000040 [6]&amp;nbsp; &amp;nbsp; &amp;nbsp;: IE (1): Input enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000030 [5:4]&amp;nbsp; &amp;nbsp;: DRIVE (1): Drive strength&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000008 [3]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PUE (0): Pull up enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000004 [2]&amp;nbsp; &amp;nbsp; &amp;nbsp;: PDE (1): Pull down enable&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000002 [1]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SCHMITT (1): Enable schmitt trigger&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000001 [0]&amp;nbsp; &amp;nbsp; &amp;nbsp;: SLEWFAST (0): Slew rate control&lt;/div&gt;&lt;div&gt;&lt;b&gt;复位后，输入输出使能，输出电流4mA，下拉电阻，施密特触发，边沿缓慢&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="247.5" y="-530" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-154" value="&lt;b&gt;复位后，中断是没有使能的&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="985" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
