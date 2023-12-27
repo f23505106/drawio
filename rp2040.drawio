@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T07:04:44.724Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uf-PrKWu2af5by3M07yo" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T09:13:51.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Jut_kmZ9PgqfCY3Z8DCO" version="22.1.11" type="github">
   <diagram name="Page-1" id="UImN8F6RggUFPWrpkJpI">
     <mxGraphModel dx="1306" dy="2965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -508,6 +508,9 @@
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-198" value="&lt;div&gt;enum &lt;b&gt;pio_fifo_join&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PIO_FIFO_JOIN_NONE = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PIO_FIFO_JOIN_TX = 1,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PIO_FIFO_JOIN_RX = 2,&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;enum &lt;b&gt;pio_mov_status_type&lt;/b&gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; STATUS_TX_LESSTHAN = 0,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; STATUS_RX_LESSTHAN = 1&lt;/div&gt;&lt;div&gt;};&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="-2090" width="279.92" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ukT0D_zXUrws_9689R1D-199" value="&amp;lt;instruction&amp;gt; (side &amp;lt;side_set_value&amp;gt;) ([&amp;lt;delay_value&amp;gt;])" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-800" width="315" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
