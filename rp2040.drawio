@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T09:02:56.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mpA6IFi-_pc0eqpyfZOD" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T09:03:49.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VXPjrlw1JJhAXGCw4HX6" version="22.1.11" type="github">
   <diagram name="Page-1" id="UImN8F6RggUFPWrpkJpI">
     <mxGraphModel dx="1306" dy="2965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -492,7 +492,7 @@
           <mxGeometry x="5" y="-1482" width="605" height="61.36" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-185" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // PIO control register ctrl&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000f00 [11:8]&amp;nbsp; : CLKDIV_RESTART (0): Restart a state machine&#39;s clock divider from an initial phase of 0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x000000f0 [7:4]&amp;nbsp; &amp;nbsp;: SM_RESTART (0): Write 1 to instantly clear internal SM state which may be otherwise difficult...&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000000f [3:0]&amp;nbsp; &amp;nbsp;: SM_ENABLE (0): Enable/disable each of the four state machines by writing 1/0 to each of these four bits&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="132.5" y="-1380" width="350" height="60" as="geometry" />
+          <mxGeometry x="1" y="-1407" width="619" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-193" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // Clock divisor register for state machine 0&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0xffff0000 [31:16] : INT (1): Effective frequency is sysclk/(int + frac/256)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000ff00 [15:8]&amp;nbsp; : FRAC (0): Fractional part of clock divisor&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="991" y="-2180" width="440" height="30" as="geometry" />
@@ -534,7 +534,7 @@
           <mxGeometry x="658.63" y="-900" width="189.37" height="180" as="geometry" />
         </mxCell>
         <mxCell id="ukT0D_zXUrws_9689R1D-208" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // FIFO status register fstat&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0f000000 [27:24] : TXEMPTY (0xf): State machine TX FIFO is empty&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x000f0000 [19:16] : TXFULL (0): State machine TX FIFO is full&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x00000f00 [11:8]&amp;nbsp; : RXEMPTY (0xf): State machine RX FIFO is empty&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 0x0000000f [3:0]&amp;nbsp; &amp;nbsp;: RXFULL (0): State machine RX FIFO is full&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="132.5" y="-1260" width="418.96" height="70" as="geometry" />
+          <mxGeometry x="1.0400000000000063" y="-1320" width="418.96" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
