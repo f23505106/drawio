@@ -34,6 +34,9 @@
         <mxCell id="_1ZvbhnNHU144-U0z6Gj-12" value="Duty cycle 0-97%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="730" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_1ZvbhnNHU144-U0z6Gj-14" value="N-channel MOSFET&lt;div&gt;初始低电平&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="790" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
